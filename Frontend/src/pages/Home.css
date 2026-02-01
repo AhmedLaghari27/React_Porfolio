@@ -1,0 +1,65 @@
+body {
+    background-color: #070F2B;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #070F2B;
+    color: #E5E7EB;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.home-container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height: 50vh;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.home-content {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+code,
+pre {
+    font-family: 'Fira Code', 'Courier New', monospace;
+}
+
+button {
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+
+
+
+
+/* Responsive padding and margins */
+@media (max-width: 768px) {
+    .home-container {
+        padding: 1rem;
+    }
+
+    .home-content {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+}
