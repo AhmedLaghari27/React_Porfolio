@@ -461,7 +461,7 @@ export function ContactUs() {
             // Replace these with your EmailJS credentials
             const result = await emailjs.send(
                 'service_kxi21a3',      // Replace with your Service ID
-                'template_9g19a4a',     // Replace with your Template ID
+                'template_9g19a4a',     // Replace with your Template IDnp
                 formData,
                 'JV-gDhr-ZcNH9Pqhm'       // Replace with your Public Key
             );
